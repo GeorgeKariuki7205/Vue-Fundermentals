@@ -5,7 +5,7 @@
     <hr />
     <div class="row">
       <!-- This is the section that the calender day will go. -->
-      <CalenderDay v-for="day in sharedData.seedData" :key="day.id" :day = "day"/>
+      <CalenderDay v-for="day in sharedData.seedData" :key="day.id" :day="day" />
     </div>
   </div>
 </template>

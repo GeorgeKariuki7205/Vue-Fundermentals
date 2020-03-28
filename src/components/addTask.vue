@@ -4,16 +4,19 @@
     <div class="col-6">
       <div class="card">
         <div class="card-body">
-          <h5 class="card-title mb-0">Add New Event.</h5>
-          <hr />
-          <p class="text-success">Day Of Event: <strong>Monday</strong></p>
-          <button
-            class="btn text-success"
-            type="button"
-            style="border:1px solid green"
-          >
-            Submit
-          </button>
+          <!-- <h5 class="card-title mb-0">Add New Event.</h5> -->
+          <div class="group">
+            <input type="text" required />
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label>Add New Event.</label>
+          </div>
+          <!-- <hr /> -->
+          <p class="text-success">
+            Day Of Event:
+            <strong>Monday</strong>
+          </p>
+          <button class="btn button" type="button" style="border:1px solid green">Submit</button>
         </div>
       </div>
     </div>
@@ -24,4 +27,12 @@
 export default {};
 </script>
 
-<style></style>
+<style>
+.button{
+  color:green;
+}
+.button:hover {
+  background-color: #4caf50; /* Green */
+  color: white;
+}
+</style>

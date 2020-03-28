@@ -13,7 +13,7 @@ export const seedData = [{
     },
     {
         id: 2,
-        abbTitle: 'Teu',
+        abbTitle: 'Tue',
         fullTitle: 'Tuesday',
         events: [{
                 details: 'Pick Laundry Tuesday.'
@@ -22,6 +22,19 @@ export const seedData = [{
                 details: 'Read Android Tuesday.'
             }
         ],
+        active: true
+    },
+    {
+        id: 4,
+        abbTitle: 'Thurs',
+        fullTitle: 'Thursday',
+        // events: [{
+        //         // details: 'Pick Laundry Tuesday.'
+        //     },
+        //     // {
+            //     details: 'Read Android Tuesday.'
+            // }
+        // ],
         active: true
     },
     {
