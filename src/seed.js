@@ -3,10 +3,12 @@ export const seedData = [{
         abbTitle: 'Mon',
         fullTitle: 'Monday',
         events: [{
-                details: 'Pick Laundry Monday.'
+                details: 'Pick Laundry Monday.',
+                edit: false
             },
             {
-                details: 'Read Android Monday.'
+                details: 'Read Android Monday.',
+                edit: false
             }
         ],
         active: true
@@ -16,32 +18,37 @@ export const seedData = [{
         abbTitle: 'Tue',
         fullTitle: 'Tuesday',
         events: [{
-                details: 'Pick Laundry Tuesday.'
+                details: 'Pick Laundry Tuesday.',
+                edit: false
             },
             {
-                details: 'Read Android Tuesday.'
+                details: 'Read Android Tuesday.',
+                edit: false
             }
         ],
         active: true
     },
     {
-        id: 4,
+        id: 3,
         abbTitle: 'Thurs',
         fullTitle: 'Thursday',
         events: [],
         active: true
     },
     {
-        id: 3,
+        id: 4,
         abbTitle: 'Fri',
         fullTitle: 'Friday',
         events: [{
-                details: 'Pick Laundry Friday.'
+                details: 'Pick Laundry Friday.',
+                edit: false
             },
             {
-                details: 'Read Android Friday.'
+                details: 'Read Android Friday.',
+                edit: false
             }
         ],
         active: true
-    }
+    },
+
 ]

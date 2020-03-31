@@ -4,7 +4,7 @@
   /* text-align: center; */
 }
 
-input {
+input.googleText {
   font-size: 14px;
   padding: 1px 1px 10px 5px;
   display: block;
@@ -13,7 +13,7 @@ input {
   border-bottom: 2px solid green;
 }
 
-input:focus {
+input.googleText:focus {
   outline: none;
 }
 
@@ -28,12 +28,12 @@ label {
   transition: 0.2s ease all;
 }
 
-input:focus~label,
-input:valid~label {
+input.googleText:focus~label,
+input.googleText:valid~label {
   top: -20px;
   font-size: 16px;
   color: green;
-  
+
 }
 
 .bar {
@@ -61,8 +61,8 @@ input:valid~label {
   right: 50%;
 }
 
-input:focus~.bar:before,
-input:focus~.bar:after {
+input.googleText:focus~.bar:before,
+input.googleText:focus~.bar:after {
   width: 50%;
 }
 
@@ -76,6 +76,6 @@ input:focus~.bar:after {
   opacity: 0.5;
 }
 
-input:focus~.highlight {
+input.googleText:focus~.highlight {
   animation: inputHighlighter 0.3s ease;
 }
