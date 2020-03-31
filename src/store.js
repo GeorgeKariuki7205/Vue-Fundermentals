@@ -14,8 +14,8 @@ export const store = {
 
     setActiveDay(dayId) {
 
-        this.state.seedData.map((dayObj) => {
-            dayObj.id === dayId ? dayObj.active = true : dayObj.active = false
+        this.state.seedData.map((Obj) => {
+            Obj.id === dayId ? Obj.active = true : Obj.active = false
         });
 
     }

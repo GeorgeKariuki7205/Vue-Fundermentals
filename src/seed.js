@@ -28,13 +28,7 @@ export const seedData = [{
         id: 4,
         abbTitle: 'Thurs',
         fullTitle: 'Thursday',
-        // events: [{
-        //         // details: 'Pick Laundry Tuesday.'
-        //     },
-        //     // {
-            //     details: 'Read Android Tuesday.'
-            // }
-        // ],
+        events: [],
         active: true
     },
     {

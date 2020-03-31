@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="calenderWeek">
     <hr />
     <h1 class="text-center" style="color: rgb(0,208,71);">Vue Fundermentals Calender.</h1>
     <hr />
@@ -26,4 +26,8 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+#calenderWeek {
+  font-family: "Times New Roman", Times, serif;
+}
+</style>

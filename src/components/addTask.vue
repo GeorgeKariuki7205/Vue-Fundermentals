@@ -14,7 +14,7 @@
           <!-- <hr /> -->
           <p class="text-success">
             Day Of Event:
-            <strong>Monday</strong>
+            <strong>{{titleOfActiveDay}}</strong>
           </p>
           <button class="btn button" type="button" style="border:1px solid green">Submit</button>
         </div>
@@ -24,12 +24,20 @@
 </template>
 
 <script>
-export default {};
+import { store } from "../store.js";
+export default {
+  name: "addTask",
+  computed: {
+    titleOfActiveDay() {
+      return store.getActiveDay().abbTitle;
+    }
+  }
+};
 </script>
 
 <style>
-.button{
-  color:green;
+.button {
+  color: green;
 }
 .button:hover {
   background-color: #4caf50; /* Green */
